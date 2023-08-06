@@ -54,7 +54,9 @@ div#left-floater h2 {
 
 .fa.fa-heartbeat {
   font-size: 75px;
-  margin-bottom: 25px;
+  position: relative;
+  top: 10px;
+  margin: 0 10px;
 }
 
 #home-stats blockquote p {
