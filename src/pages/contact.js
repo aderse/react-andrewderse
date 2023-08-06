@@ -8,8 +8,6 @@ export function ContactMain() {
                     <div className="row mb-5">
                         <div className="col-12 text-center p-5">
                             <h2>Contact Me</h2>
-                            <p><a href="tel:6084087169">(608) 408-7169</a> - <a href="mailto:andrew.derse@madcitycoders.com">andrew.derse@madcitycoders.com</a></p>
-                            <p>521 S Park Street, Reedsburg, WI 53959</p>
                         </div>
                     </div>
                 </div>
@@ -28,12 +26,12 @@ export function ContactMain() {
                         <div className="col-6">
                             <form id="contact-form" method="post">
                                 <h4>Name:</h4>
-                                <input type="text" style={{ height: '35px', width: '100%'}} id="name-input" placeholder="Enter name here…" class="form-control" /><br/>
+                                <input type="text" style={{ height: '35px', width: '100%'}} id="name-input" placeholder="Enter name here…" className="form-control" /><br/>
                                 <h4>Email:</h4>
-                                <input type="email" style={{height: '35px', width: '100%'}} id="email-input" placeholder="Enter email here…" class="form-control"/><br/>
+                                <input type="email" style={{height: '35px', width: '100%'}} id="email-input" placeholder="Enter email here…" className="form-control"/><br/>
                                 <h4>How can we help you?</h4>
-                                <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" style={{width:'100%'}}></textarea><br/>
-                                <button type="button" onClick="submitToAPI(event)" class="btn btn-lg contact-btn" style={{'marginTop':'20px'}}>Submit</button>
+                                <textarea id="description-input" rows="3" placeholder="Enter your message…" className="form-control" style={{width:'100%'}}></textarea><br/>
+                                <button type="button" onClick="submitToAPI(event)" className="btn btn-lg contact-btn" style={{'marginTop':'20px'}}>Submit</button>
                             </form>
                         </div>
                     </div>
