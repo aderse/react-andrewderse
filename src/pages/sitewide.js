@@ -16,8 +16,8 @@ export function Menu() {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/reading-list" className="nav-link">
-                        Reading List
+                    <Link to="/dadjokes" className="nav-link">
+                        50 Dad Jokes
                     </Link>
                 </li>
                 <li className="nav-item">
@@ -45,11 +45,11 @@ export function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
-                        &copy; Copyright 2019 - Andrew Derse - All Rights Reserved
+                        &copy; Copyright 2023 - Andrew Derse - All Rights Reserved
                         <Menu />
                     </div>
                     <div className="col-sm text-right">
-                        <a className="mr-3" href="https://www.facebook.com/andrew.derse.7"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i> </a>
+                        <a className="mr-3" href="https://www.facebook.com/derseandrew"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i> </a>
                         <a href="https://www.linkedin.com/in/andrew-derse-56692235/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
                     </div>
                 </div>
