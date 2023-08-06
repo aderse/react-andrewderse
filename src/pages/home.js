@@ -6,9 +6,8 @@ export function HomeMain() {
             <section id="home-banner" style={{ backgroundImage: `url(/assets/andrewderse-homepage.jpg)` }}>
                 <div className="inner-wrap">
                     <div id="left-floater" className="text-white text-center">
-                        <h2>I</h2>
-                        <i className="fa fa-heartbeat" aria-hidden="true"></i>
-                        <h2>CODE</h2>
+                        <h2>I <i className="fa fa-heartbeat" aria-hidden="true"></i>CODE<br/>&<br/> DAD JOKES</h2>
+                        <img src={process.env.PUBLIC_URL + "/assets/50dadjokes-logo.png"} alt="50 Dad Jokes Logo" className="img-fluid" />
                     </div>
                 </div>
             </section>
@@ -22,7 +21,7 @@ export function HomeMain() {
                         <div className="col-sm">
                             <i className="fa fa-code fa-5x" aria-hidden="true"></i>
                             <hr />
-                            <h3>10+</h3>
+                            <h3>15+</h3>
                             <h4>Years of developing</h4>
                         </div>
                         <div className="col-sm">
