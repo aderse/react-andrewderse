@@ -16,11 +16,6 @@ export function Menu() {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/dadjokes" className="nav-link">
-                        50 Dad Jokes
-                    </Link>
-                </li>
-                <li className="nav-item">
                     <Link to="/contact" className="nav-link">
                         Contact
                     </Link>
