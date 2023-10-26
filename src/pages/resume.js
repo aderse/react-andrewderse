@@ -7,7 +7,7 @@ export function ResumeMain() {
                 <div className="container-fluid">
                     <div className="row mb-5">
                         <div className="col-12 text-center p-5">
-                            <h2>Resume</h2>
+                            <h1>Resume</h1>
                             <p>Keep moving forward</p>
                         </div>
                     </div>
@@ -16,12 +16,12 @@ export function ResumeMain() {
             <section id="resume">
                 <div className="container">
                     <div className="row">
-                        <h3 className="ml-3">About Me</h3>
+                        <h2 className="ml-3">About Me</h2>
                     </div>
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>Professional</h5>
+                            <h3>Professional</h3>
                         </div>
                         <div className="col-sm-12 col-md-9">
                             <p>Passionate about leadership and developing leaders who bring the latest technologies to our clients.</p>
@@ -32,7 +32,7 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>Personal</h5>
+                            <h3>Personal</h3>
                         </div>
                         <div className="col-sm-12 col-md-9">
                             <p>I am a loving husband and father, who is passionate about defending the orphans and widows.</p>
@@ -42,17 +42,17 @@ export function ResumeMain() {
                         </div>
                     </div>
                     <div className="row">
-                        <h3 className="mt-5 ml-3">Work Experience</h3>
+                        <h2 className="mt-5 ml-3">Work Experience</h2>
                     </div>
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>July 2022 - Present</h5>
+                            <h3>JUL 2022 - Present</h3>
                             <p><a href="https://www.creedinteractive.com">www.creedinteractive.com</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Sr. Developer/Team Lead - <span
-                                className="company-name">Creed Interactive</span></h5>
+                            <h3>Sr. Developer/Team Lead - <span
+                                className="company-name">Creed Interactive</span></h3>
                             <p>
                                 I lead the Open Source web development team as we tackle website redesigns and builds.<br/>
                                 My team is proficient in WordPress, Drupal, Laravel, React, and more.<br/>
@@ -65,11 +65,11 @@ export function ResumeMain() {
                     <hr/>
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>APR 2017 - July 2022</h5>
+                            <h3>APR 2017 - JUL 2022</h3>
                             <p><a href="https://www.madcitycoders.com">www.madcitycoders.com</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Owner - <span className="company-name">Mad City Coders, LLC</span></h5>
+                            <h3>Owner - <span className="company-name">Mad City Coders, LLC</span></h3>
                             <p>I successfully ran a website development agency for 5 years and eventually sold the company off to a friend.
                                 The experience was simply amazing and I enjoyed helping all of the businesses throughout that time.
                                 I have closed over 50 projects successfully, many of which are still in use today. Unfortunately, do to the
@@ -80,11 +80,11 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>FEB 2018 - July 2022</h5>
+                            <h3>FEB 2018 - JUL 2022</h3>
                             <p><a href="https://www.fullcompass.com">www.fullcompass.com</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Website Developer - Technical Lead - <span className="company-name">Full Compass Systems</span></h5>
+                            <h3>Website Developer - Technical Lead - <span className="company-name">Full Compass Systems</span></h3>
                             <p>
                                 Lead web development team in large and small projects.<br />
                                 Help make technical decisions with what direction team goes and what technologies we use.<br />
@@ -108,11 +108,11 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>AUG 2016 - FEB 2018</h5>
+                            <h3>AUG 2016 - FEB 2018</h3>
                             <p><a href="https://www.sounddevices.com">www.sounddevices.com</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>IT Manager - Website Developer - <span className="company-name">Sound Devices</span></h5>
+                            <h3>IT Manager - Website Developer - <span className="company-name">Sound Devices</span></h3>
                             <p>
                                 Responsible for all aspects of IT. Maintain and build internal infrastructure of computers, servers,
                                 and network within a diverse OS environment (Mac, Windows, Linux).
@@ -126,11 +126,11 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>JUN 2016 - AUG 2016</h5>
+                            <h3>JUN 2016 - AUG 2016</h3>
                             <p><a href="https://www.earthlinginteractive.com">www.earthlinginteractive.com</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Developer - <span className="company-name">Earthling Interactive</span></h5>
+                            <h3>Developer - <span className="company-name">Earthling Interactive</span></h3>
                             <p>
                                 Responsible for developing and maintaining CodeIgniter websites for Sparc project.
                             </p>
@@ -143,11 +143,11 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>MAR 2013 - MAR 2016</h5>
+                            <h3>MAR 2013 - MAR 2016</h3>
                             <p><a href="https://www.back2back.org">www.back2back.org</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Missionary - House Parent - Developer - Finance Controller - <span className="company-name">Back2Back Ministries</span></h5>
+                            <h3>Missionary - House Parent - Developer - Finance Controller - <span className="company-name">Back2Back Ministries</span></h3>
                             <p>
                                 Oversaw direction of millions of dollars across several areas of ministry. Oversaw direction of finance employees as we
                                 helped the ministry distribute and collect money to keep operating at an efficient level.
@@ -170,11 +170,11 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>FEB 2010 - JAN 2013</h5>
+                            <h3>FEB 2010 - JAN 2013</h3>
                             <p><a href="https://www.nukusa.com">www.nukusa.com</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Network/User Support Analyst - Web Developer - <span className="company-name">NUK USA</span></h5>
+                            <h3>Network/User Support Analyst - Web Developer - <span className="company-name">NUK USA</span></h3>
                             <p>
                                 Responsible for turning paper-based routines into efficient web-based processes with email notifications and
                                 instant feedback. Implemented company Intranet, Certification Access Portal (saved the company $88,000 annually)
@@ -188,15 +188,15 @@ export function ResumeMain() {
                         </div>
                     </div>
                     <div className="row">
-                        <h3 className="mt-5 ml-3">Education</h3>
+                        <h2 className="mt-5 ml-3">Education</h2>
                     </div>
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>MAR 2020</h5>
+                            <h3>MAR 2020</h3>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Certified Cloud Developer - Assoc <span className="company-name">Amazon Web Services</span></h5>
+                            <h3>Certified Cloud Developer - Assoc <span className="company-name">Amazon Web Services</span></h3>
                             <p>
                                 AWS Certified Cloud Developer - Assoc
                             </p>
@@ -205,10 +205,10 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>NOV 2017</h5>
+                            <h3>NOV 2017</h3>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>Certified Cloud Practitioner <span className="company-name">Amazon Web Services</span></h5>
+                            <h3>Certified Cloud Practitioner <span className="company-name">Amazon Web Services</span></h3>
                             <p>
                                 AWS Certified Cloud Practitioner
                             </p>
@@ -217,11 +217,11 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>JAN 2012</h5>
+                            <h3>JAN 2012</h3>
                             <p><a href="https://www.fvtc.edu">www.fvtc.edu</a></p>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>A.A.S. in IT - Programmer/Systems Analyst <span className="company-name">Fox Valley Technical College</span></h5>
+                            <h3>A.A.S. in IT - Programmer/Systems Analyst <span className="company-name">Fox Valley Technical College</span></h3>
                             <p>
                                 Specializing in Database and Website Development.
                             </p>
@@ -230,17 +230,17 @@ export function ResumeMain() {
                     <hr />
                     <div className="row">
                         <div className="col-sm-12 col-md-3">
-                            <h5>SEP 2009</h5>
+                            <h3>SEP 2009</h3>
                         </div>
                         <div className="col-sm-12 col-md-9">
-                            <h5>CompTIA A+ <span className="company-name">CompTIA</span></h5>
+                            <h3>CompTIA A+ <span className="company-name">CompTIA</span></h3>
                             <p>
                                 Certified CompTIA A+
                             </p>
                         </div>
                     </div>
                     <div className="row">
-                        <h3 className="mt-5 ml-3">Skills</h3>
+                        <h2 className="mt-5 ml-3">Skills</h2>
                     </div>
                     <hr />
                     <div className="text-center">

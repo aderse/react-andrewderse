@@ -16,8 +16,42 @@ export function Menu() {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contact" className="nav-link">
-                        Contact
+                    <Link to="/links" className="nav-link">
+                        Links
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="/connect" className="nav-link">
+                        Connect
+                    </Link>
+                </li>
+            </ul>
+        </nav>
+    );
+}
+
+export function MenuFooter() {
+    return(
+        <nav>
+            <ul className="nav footerNav">
+                <li className="nav-item">
+                    <Link to="/" className="nav-link">
+                        Home
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="/resume" className="nav-link">
+                        Resume
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="/links" className="nav-link">
+                        Links
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="/connect" className="nav-link">
+                        Connect
                     </Link>
                 </li>
             </ul>
@@ -41,11 +75,11 @@ export function Footer() {
                 <div className="row">
                     <div className="col-sm">
                         &copy; Copyright 2023 - Andrew Derse - All Rights Reserved
-                        <Menu />
+                        <MenuFooter />
                     </div>
                     <div className="col-sm text-right">
                         <a className="mr-3" href="https://www.facebook.com/derseandrew"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i> </a>
-                        <a href="https://www.linkedin.com/in/andrew-derse-56692235/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
+                        <a href="https://www.linkedin.com/in/andrewderse/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
                     </div>
                 </div>
             </div>

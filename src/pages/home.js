@@ -6,7 +6,7 @@ export function HomeMain() {
             <section id="home-banner" style={{ backgroundImage: `url(/assets/andrewderse-homepage.jpg)` }}>
                 <div className="inner-wrap">
                     <div id="left-floater" className="text-white text-center">
-                        <h2>I <i className="fa fa-heartbeat" aria-hidden="true"></i>CODE<br/>&<br/> DAD JOKES</h2>
+                        <h1>I <i className="fa fa-heartbeat" aria-hidden="true"></i>CODE<br/>&<br/> DAD JOKES</h1>
                         <img src={process.env.PUBLIC_URL + "/assets/50dadjokes-logo.png"} alt="50 Dad Jokes Logo" className="img-fluid" />
                     </div>
                 </div>
@@ -27,13 +27,13 @@ export function HomeMain() {
                         <div className="col-sm">
                             <i className="fa fa-check-square-o fa-5x" aria-hidden="true"></i>
                             <hr />
-                            <h3>30+</h3>
+                            <h3>50+</h3>
                             <h4>Websites developed</h4>
                         </div>
                         <div className="col-sm">
                             <i className="fa fa-heart-o fa-5x" aria-hidden="true"></i>
                             <hr />
-                            <h3>100+</h3>
+                            <h3>200+</h3>
                             <h4>Hours donated to charity</h4>
                         </div>
                     </div>

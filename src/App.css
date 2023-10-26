@@ -105,6 +105,10 @@ footer.footer a {
   color: #fff;
 }
 
+footer.footer a.nav-link {
+  padding: .5rem 1rem .5rem 0;
+}
+
 button.btn.btn-lg.contact-btn {
   border: 2px solid #638ba5;
   color: #638ba5;
